@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+    <html lang='fr'>
+        <head>
+            <title>Oh my food</title>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com"> 
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/173d48d8eb.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <div class="chargement">
+                <div class="chargement__cercle chargement__cercle--1"></div>
+                <div class="chargement__cercle chargement__cercle--2"></div>
+                <div class="chargement__cercle chargement__cercle--3"></div>
+            </div>
+            <header>
+                <img class="header__titre" src="images/logo/ohmyfood.png" alt="logo">
+                <div class="header__location">
+                    <i class="fa-solid fa-location-dot navigation__localisation"></i>
+                    <p>Paris, Belleville</p>
+                </div>
+                <div class="header__reservation">
+                    <h1 class="header__h1" >Réservez le menu qui vous convient</h1>
+                    <h2 class="header__h2" >Découvrez des restaurants d'exception, sélectionés par nos soints</h2>
+                    <button type="button" class="bouton">Explorer nos restaurants</button>
+                </div>
+            </header>
+            <div class="corps">
+                <div class="fonctionnement">
+                    <h3 class="fonctionnement fonctionnement__titre">Fonctionnement</h3>
+                    <div class="fonctionnement__liste">
+                        <div class="fonctionnement__element">
+                            <div class="fonctionnement__numero">1</div>
+                            <i class="fa-solid fa-mobile-screen-button fonctionnement__icon"></i>
+                            <p>Choississez un restaurant</p>
+                        </div >
+                        <div class="fonctionnement__element">
+                            <div class="fonctionnement__numero">2</div>
+                            <i class="fa-solid fa-list fonctionnement__icon"></i>
+                            <p>Composez votre menu</p>
+                        </div >
+                        <div class="fonctionnement__element fonctionnement__element--troisieme">
+                            <div class="fonctionnement__numero fonctionnement__numero--troisieme">3</div>
+                            <i class="fa-solid fa-store fonctionnement__icon fonctionnement__icon--troisieme"></i>
+                            <p>Déguster au restaurant</p>
+                        </div >
+                    </div>
+                </div>
+                <h3 class="corps__titre">Restaurants</h3>
+                <div class="corps__grid">
+                    <a href="/projet-3/lapalettedugout.html" class="corps__cartes">
+                        <div class="cartes__nouveau">Nouveau</div>
+                        <img class="cartes__image" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image du restaurant">
+                        <div class="cartes__description">
+                            <div class="description__texte">
+                                <p class="description__nom">
+                                    La palette du goût
+                                </p>
+                                <p class="description__ville">
+                                    Ménilmontant
+                                </p>
+                            </div>
+                            <div class="coeur__contenu">
+                                <svg class="coeur__principal" viewBox="0 0 512 512" width="100" >
+                                    <path fill="url(#degrade_couleur)" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                <a href="/projet-3/lanoteenchantee.html" class="corps__cartes">
+                    <div class="cartes__nouveau">Nouveau</div>
+                        <img class="cartes__image" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image du restaurant">
+                        <div class="cartes__description">
+                            <div class="description__texte">
+                                <p class="description__nom">
+                                    La note enchantée
+                                </p>
+                                <p class="description__ville">
+                                    Charonne
+                                </p>
+                            </div>
+                            <div class="coeur__contenu">
+                                <svg class="coeur__principal" viewBox="0 0 512 512" width="100" >
+                                    <path fill="url(#degrade_couleur)" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/projet-3/alafrancaise.html" class="corps__cartes">
+                        <img class="cartes__image" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image du restaurant">
+                        <div class="cartes__description">
+                            <div class="description__texte">
+                                <p class="description__nom">
+                                    &Agrave; la française
+                                </p>
+                                <p class="description__ville">
+                                    Cité Rouge
+                                </p>
+                            </div>
+                            <div class="coeur__contenu">
+                                <svg class="coeur__principal" viewBox="0 0 512 512" width="100" >
+                                    <path fill="url(#degrade_couleur)" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/projet-3/ledelicedessens.html" class="corps__cartes">
+                        <img class="cartes__image" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image du restaurant">
+                        <div class="cartes__description">
+                            <div class="description__texte">
+                                <p class="description__nom">
+                                    Le délice des sens
+                                </p>
+                                <p class="description__ville">
+                                    Folie-Méricourt
+                                </p>
+                            </div>
+                            <div class="coeur__contenu">
+                                <svg class="coeur__principal" viewBox="0 0 512 512" width="100" >
+                                    <defs>
+                                        <linearGradient  id="degrade_couleur" x1="20%" y1="20%" x2="120%" y2="120%">
+                                            <stop class="stop1" offset="0%"/>
+                                            <stop class="stop2" offset="100%"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path fill="url(#degrade_couleur)" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer__titre">ohmyfood</div>
+                <div>
+                    <ul class="footer__liste">
+                        <li class="footer__element">
+                            <p><i class="fa-solid fa-utensils footer__icon--premier"></i><a href="#" >Proposer un restaurant</a></p>
+                        </li>
+                        <li class="footer__element">
+                            <p><i class="fa-solid fa-handshake-angle footer__icon"></i><a href="#" >Devenir partenaire</a></p>
+                        </li>
+                        <li class="footer__element">
+                            <p><a href="#" >Mentions légales</a></p>
+                        </li>
+                        <li class="footer__element">
+                            <p><a href="mailto:contact&ohmyfood.com">Contact</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+    </html>

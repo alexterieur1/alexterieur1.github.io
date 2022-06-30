@@ -1,0 +1,54 @@
+.chargement{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    background-color: white;
+    z-index: 100;
+    animation: 1ms ease-out $duree-animation 1 fond_blanc;
+    animation-fill-mode: both;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    &__cercle{        
+        aspect-ratio: 1/1;
+        height:16px;
+        border-radius: 8px;
+        animation: rebond 500ms ease-out 2;
+        animation-direction: alternate;
+        &--1{
+            background-color: $couleur-primaire;
+            animation-delay: 0ms;
+        }
+        &--2{
+            background-color: $couleur-secondaire;
+            animation-delay: 1000ms;
+        }
+        &--3{
+            background-color: $couleur-tertiaire;
+            animation-delay: 2000ms;
+        }
+    }
+}
+
+@keyframes fond_blanc{
+    100%{
+        transform:translateX(100%);
+        visibility:hidden;
+    }
+}
+
+@keyframes rebond{
+    0%{
+        transform:scale(1,1);
+    }
+    10%{
+        transform:scale(0.65,1.35) translate(0px,-5px);
+    }
+    100%{
+        transform:translate(0px,-50px) scale(1.1,0.9);
+    }
+}
